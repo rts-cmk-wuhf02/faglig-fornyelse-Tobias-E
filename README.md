@@ -22,10 +22,4 @@ Jeg har anvendt workbox som værktøj til, at benytte mig af de mest gængse fun
 
 
 
-0. En kort video* præsentation af det færdige produkt. I videoen* skal du forklare:<br>
-  a. Hvad du har udviklet.<br>
-  b. Hvilken teknologi du har anvendt.<br>
-  c. Hvorfor du har anvendt den aktuelle teknologi.<br>
-  d. Hvilke alternative teknologier du kunne have brugt.<br>
-  e. Lidt om de fordele eller ulemper som du har erfaret omkring den aktuelle teknologi.<br>
 
