@@ -1,0 +1,20 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sw.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "copy": "copyfiles -u 1 src/**/**/* src/**/* src/* build",
+    "build": "npm run copy && workbox injectManifest workbox-config.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "copyfiles": "^2.2.0",
+    "express": "^4.17.1",
+    "workbox-cli": "^5.0.0"
+  }
+}

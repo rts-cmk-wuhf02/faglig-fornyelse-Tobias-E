@@ -1,12 +1,26 @@
-# faglig-fornyelse
+# Indledning!
+Eftersom vi i første omgang fik at vide afleveringen, skulle være i **Maj**, var der på ingen måde tid til at udvikle det produkt som jeg havde ønsket.<br>
+Dette har gjort at jeg har skåret alt ind til benet og kun udviklet et eksempel på hvordan en PWA virker, helt basalt.
 
-I faget faglig fornyelse skal du igennem egen research tilegne dig viden om en relevante og aktuel udviklingstendens, det kan for eksempel være et framework, bibliotek, et SDK eller noget fjerde som du kan benytte til at skabe et produkt som er relevant for din fagfaglige praksis, e.g. website, app etc. 
-Det er et **krav** at du ikke fra tidligere undervisning har kendskab til den teknologi du vælger at fordybe dig i. <br>Det er ligeledes et **krav** at du ikke "bare" følger en tutorial. Det kan være en god måde at komme igang på, men det er vigtigt at du bruger den viden du får undervejs til at udvide produktet med egne features og at du kan påpeje disse features i din videogennemgang af produktet.
+Jeg er skuffet over at den første aflevering vi har, som er karakter givende skal foregå på denne måde. <br> 
+Jeg har fuld forståelse for, at vi står overfor en ekstraordinær situation her i landet og, at i har følt jer nødsaget til dette, men som om vi ikke har nok i at tænke på smittefare og hvordan vi beskytter os selv og vores medborgere, skulle vi nu også tænke på en opgave som vil have et udfald i form af en karakter.<br>
+Ind til videre har vi ikke fået noget som helst feedback på vores andre opgaver, og pludselig vælger man at give karakterer for dem.<br>
+Dette ser jeg som et enormt spring, og manglende overblik af uddannelsens forløb! <br>
+Jeg har haft svært ved at omstille mig til dette og det er min opgave desværre også blevet en afspejling af.
 
-Du skal som det fremgår umiddebart herover demonstere at du kan anvende den tilegnede viden ved, at udvikle et produkt som bygger på den valgte teknologi. Du vil blive vurderet på dette produkt og din viden omkring den anvendte teknologi, samt din forståelse for dennes anvendeligehed og alternativer hertil. 
+# Beskrivelse
+1. En kort beskrivelse af det produkt du vil udvikle:<br>
+Jeg ville ha' udvilket et site med opskrifter på forskellige retter, som havde levet op til PWA standarden.
+I stedet har jeg nu lavet et lille eksempel på hvordan en PWA virker.
 
-## Aflevering fredag d. 20 kl. 13:40
-***Nedenstående skrives i readme.md filen fra opgave rapo.***
+2. En beskrivelse af den teknologi du vil anvende i udviklingen:<br>
+Jeg har anvendt workbox som værktøj til, at benytte mig af de mest gængse funktioner som en service worker tilbyder og tilføjet et manifest som gør det muligt at downloade sitet.
+
+3. En liste over de ressourcer som har hjulpet dig i processen:<br>
+[Workbox](https://developers.google.com/web/tools/workbox/guides/get-started)<br>
+[PWA](https://developers.google.com/web/ilt/pwa)
+
+
 
 0. En kort video* præsentation af det færdige produkt. I videoen* skal du forklare:<br>
   a. Hvad du har udviklet.<br>
@@ -15,20 +29,3 @@ Du skal som det fremgår umiddebart herover demonstere at du kan anvende den til
   d. Hvilke alternative teknologier du kunne have brugt.<br>
   e. Lidt om de fordele eller ulemper som du har erfaret omkring den aktuelle teknologi.<br>
 
-
-1. En kort beskrivelse af det produkt du vil udvikle 
-
-2. En beskrivelse af den teknologi du vil anvende i udviklingen
-
-3. En liste over de ressourcer som har hjulpet dig i processen
-
-## * Skoletube
-Afleveringen af jeres video gennemgang af produktet skal ske i skoletube. I logger på skoletube.dk med jeres **uni-login**, som i til dagligt bruger på til at komme op elevplan med. Brug følgende **invitationskode: CB75185A** for at joine vores kanal. I kan bruge skoletube appen **WeVideo** som er et simpelt og godt browser baseret videoredigeringsværktøj, som i har tilgængelig igennem skoletube. Du kan se skoletubes video gennemgang af WeVideo. der er en video for alt du behøver at vide for, at kunne lave en video gennemgang af dit produkt og herefter aflevere på skoletube.
-
-**Sådan bruger du WeVideo:**
-https://skoletubeguide.dk/project/wevideo/
-
-Det er især interessant for dig at se video 3. udgiv til skoletube og video 37 under punkt 6. webcam og optager.
-
-## Evaluering
-Du vil blive evalueret på alle ovenstående punkter og i den aktuelle situation hvor vi er forhindret i at elvaluere på skolen, er især video præsentationen vigtig, for den del af evalueringen som omhandler karaktergivning. 

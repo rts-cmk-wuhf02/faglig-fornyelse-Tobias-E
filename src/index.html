@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color"  content="#4B9CC7">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="manifest" href="/manifest.json">
+    <title>PWA Example</title>
+</head>
+<body>
+    <main class="main">
+        <h3 class="main__heading">Progressive web app example </h3>
+        <img src="./images/service.jpeg" alt="" class="main__img">
+        <ul class="main__listContainer">
+            <li class="listContainer__listItem"><a href="./html/article1.html" class="listItem__link">Article 1</a></li>
+            <li class="listContainer__listItem"><a href="html/article2.html" class="listItem__link">Article 2</a></li>
+            <li class="listContainer__listItem"><a href="html/article3.html" class="listItem__link">Article 3</a></li>
+        </ul>
+    </main>
+
+    <script>
+        if ('serviceWorker' in navigator) {
+          window.addEventListener('load', () => {
+            navigator.serviceWorker.register('/sw.js')
+              .then(registration => {
+                console.log(`Service Worker registered! Scope: ${registration.scope}`);
+              })
+              .catch(err => {
+                console.log(`Service Worker registration failed: ${err}`);
+              });
+          });
+        }
+      </script>
+</body>
+</html>
